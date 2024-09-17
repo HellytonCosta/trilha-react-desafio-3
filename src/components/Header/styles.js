@@ -11,11 +11,15 @@ export const Container = styled.div`
     align-items: center;
     margin: 0 auto;
 `
+export const Logo = styled.div`
+    cursor: pointer;
+`
 
 export const Row = styled.div`
     display:flex;
     flex-direction: row;
     align-items: center;
+    gap: .50rem;
 `;
 
 export const Wrapper = styled.div`
